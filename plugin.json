@@ -1,0 +1,15 @@
+{
+    "name": "Task Attacks",
+    "url": "https://github.com/minuva/ph-prompt-attack-detect-plugin",
+    "description": "Identify user prompt attacks and agent vunerable responses",
+    "main": "index.js",
+    "config": [
+        {
+            "key": "API_SERVER_URL",
+            "name": "HOSTNAME URL",
+            "type": "string",
+            "default": "https://ml-ph-cloudrun-app-qnb6bcsgwa-ey.a.run.app",
+            "required": true
+        }
+    ]
+}
