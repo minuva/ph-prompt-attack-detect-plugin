@@ -11,4 +11,4 @@ This plugin allows you to scan attacks from user prompts and agent responses in 
 3. Head to the Manage apps tab.
 4. Install app advanced button
 5. "Install from GitHub, GitLab or npm" using this repository's URL.
-6. Click on apps Apps tab, and it will prompt with API_SERVER_URL (e.g. http://localhost:9612).
+6. Click on the Apps tab, and it will prompt you for the API_SERVER_URL (e.g., http://localhost:9612, or http://prompt-attack:9612 if running in a Docker container in the postlang network).
